@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    color: whitesmoke;
+    background-image: url('./schedule-bg.jpg');
+    padding: 5em 0em;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+.content4 .firstrow
+{   width: 100%;
+    text-align: center;
+}
+.content4 .bold{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    /* word-spacing: 1rem; */
+    letter-spacing: 2px;
+}
+.content4 .firstrow .lorem{
+    color: rgba(151, 151, 151, 0.93);
+}
+.content4 .firstrow span{
+    color: rgb(250, 113, 63);
+}
+.content4 .firstrow .text{
+    margin: .4em 0px;
+}
+.content4 .firstrow .weekdays{
+    margin: 3em 0em 2em 0em ;
+}
+.content4 .secondrow table td{
+    border: 1px solid whitesmoke;
+    margin: 1em;
+    padding: 2em;
+    text-align: center;
+}

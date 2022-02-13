@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.extra{
+    width: 20%;
+}
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    font-size: 18px;
+    word-spacing: 4px;
+    letter-spacing: .1px;
+    padding: 7rem 0px;
+
+}
+.content1 .bold{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.content1 div {
+    text-align: center;
+    letter-spacing: .1px;
+    font-weight: bold;
+}
+
+.content1 div span {
+    color: orangered;
+}
+
+.content1 {
+    font-weight: 500;
+}
+
+.content1 .lorem {
+    color: rgba(151, 151, 151, 0.93);
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.content1 .lorem span {
+    color: rgb(12, 190, 221);
+}
+
+.content1 table,
+td {
+    border-spacing: 2rem;
+}
+
+.content1 .foot {
+    color: rgb(250, 108, 56);
+    font-weight: bolder;
+    font-size: .7rem;
+}
+
+.content1 .title {
+    font-weight: bold;
+}

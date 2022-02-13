@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.content6{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* height: 100vh; */
+}
+/* .mapouter{
+    padding: 0rem 0rem 10rem 0rem;
+    width: 50%;
+    height: 100%;
+
+} */
+.content6 .right{
+    background-image: url('./contact-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    background-color: #fbfcfc;
+    padding: 15px;
+    /* margin: auto; */
+    /* width: 80%;   */
+    /* height: 100%; */
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    /* max-width: 90%; */
+
+}
+.form .firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 100%; */
+
+}
+input[name="subject"]{
+    width: 100%;    
+}
+textarea{
+    width: 100%;
+    /* text-align: left; */
+    padding: 13px;
+}
+.content6 .txt{
+    padding: 1px 3rem;
+    margin: 1rem;
+}
+.content6 input[type="submit"]{
+    background-color: tomato;
+    color: whitesmoke;
+    border: 0px solid ;
+    border-radius: 1px;
+}.content6 input{
+    
+    padding:  7px;
+}

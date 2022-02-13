@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    background-color: violet;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url('cta-bg.jpg');
+    padding: 61px 0px;
+    font-size: 18px;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.content2 h2 {
+    position: relative;
+    color: whitesmoke;
+    margin: 32px 0px;
+}
+
+.content2 h2 span {
+    position: relative;
+    color: rgb(250, 113, 63);
+}
+
+.content2 h6 {
+    margin-bottom: 38px;
+}
+
+.content2 #member {
+    position: relative;
+    display: inline;
+    background-color: rgb(250, 113, 63);
+    padding: 12px;
+    margin: 2rem 0rem;
+}
